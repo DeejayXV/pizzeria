@@ -20,6 +20,15 @@ public class Menu {
         drinks.add(drink);
     }
 
+    // Aggiungi i metodi getter per le liste di pizze e bevande
+    public List<Pizza> getPizzas() {
+        return pizzas;
+    }
+
+    public List<Drink> getDrinks() {
+        return drinks;
+    }
+
     public void printMenu() {
         System.out.println("Pizze:");
         for (Pizza pizza : pizzas) {
